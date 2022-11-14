@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ef2dcf20f74dc989901fdf97c48a70, type: 3}
+  m_Name: Game Settings Installer
+  m_EditorClassIdentifier: 
+  EnemySpawner:
+    Direction: {x: 0, y: -1, z: 0}
+    MinSpeed: 2
+    MaxSpeed: 3
+    DesiredEnemyCount: 8
+    delayBetweenSpawn: 2
+  GameInstaller:
+    EnemyFacadePrefab: {fileID: 3678272439533228112, guid: 4b890da7d4f485940a392ffd5a923c0b, type: 3}
